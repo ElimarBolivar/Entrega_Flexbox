@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' ;
+}
+
+:root {
+
+    --rtc-primary-color:#DF6951  ;
+    --rtc-secundary-color: #181E4B ;
+    --rct-teritiary-color: #5E6282 ;
+    --rct-background-color: #FFFFFF; 
+}
+header {
+  display: flex;
+  padding: 25px;
+
+}
+
+header > img {
+    width: 90px;
+    height: 45px;
+}
+
+header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista-nav{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
+    padding-right: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.boton {
+    background-color: transparent;
+    border-radius: 1;
+    border-color: black ;
+    font-weight: 300;
+    
+}
+a {
+    text-decoration: none;
+    color: var(--rtc-secundary-color);
+}
+
+main{
+    display: flex;
+    padding-left:50px;
+align-items: center;
+}
+
+.naranja {
+    color: var(--rtc-primary-color);
+    font-size: 15px;
+    
+}
+
+main > article {
+    width: 30%;
+  padding-left: 50px;
+
+}
+
+main > img {
+    width: 50%;
+    max-width: 600px;
+    height: auto;
+
+}
+
+h1 {
+    color: var(--rtc-secundary-color);
+    font-style: oblique;
+    font-size: 30px;
+}
+
+article > p {
+    color: var(--rct-teritiary-color);
+    font-size: 15px;
+}
+
+.botones {
+margin-top: 20px;
+    padding: 10px;
+    gap: 45px;
+    border: none;
+
+    
+}
+
+.boton1 {
+    background-color:#F1A501;
+    border: none;
+    border-radius:10px;
+
+}
+.boton1 > a{
+    color: #FFFFFF;
+}
+
+.boton2 {
+    background-color: transparent;
+    border: none;  
+ 
+}
+
+
+footer{
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap; 
+}
+
+footer > p {
+   width: 15%;
+   align-self: start;
+   color: var(--rct-teritiary-color);
+   font-size: small;
+}
+span {
+    text-decoration: solid;
+    color: var(--rtc-secundary-color);
+    text-shadow: #5E6282;
+    font-size: medium;
+}
+
+.lista-footer{
+    list-style: none;
+
+}
+
+li:first-child{
+    font-weight: bolder
+}
+    
